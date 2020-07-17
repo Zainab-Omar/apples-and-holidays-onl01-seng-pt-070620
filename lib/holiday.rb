@@ -15,13 +15,14 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
 end
 
 def add_supply_to_memorial_day(holiday_hash, supply)
-  holiday_hash.each do |weather, data|
-    if wearher == :spring
-      data.each do |holiday, supplies|
-        supplies << supply
-      end
-    end
-  end
+  holiday_hash[:spring][:memorial_day].push(supply)
+  #holiday_hash.each do |weather, data|
+   # if wearher == :spring
+    #  data.each do |holiday, supplies|
+     #   supplies << supply
+      #end
+  #  end
+  #end
 end
 
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
