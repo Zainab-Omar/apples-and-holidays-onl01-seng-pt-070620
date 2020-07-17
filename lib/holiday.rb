@@ -16,9 +16,9 @@ end
 
 def add_supply_to_memorial_day(holiday_hash, supply)
   holiday_hash.each do |weather, data|
-    binding.pry
     if wearher == :spring
       data.each do |holiday, supplies|
+         binding.pry
         supplies << supply
       end
     end
