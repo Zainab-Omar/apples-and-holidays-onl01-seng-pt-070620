@@ -25,10 +25,8 @@ def add_supply_to_memorial_day(holiday_hash, supply)
 end
 
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
-  holiday_hash.each do |seasons, data|
-    if seasons == season
-      data.to_s << holiday_name
-      
+    change_keys_to_string=holiday_hash.to_a
+    
     binding.pry
   end
   end
