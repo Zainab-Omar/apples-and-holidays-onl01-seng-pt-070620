@@ -28,8 +28,6 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
     change_keys_to_string=holiday_hash.to_a
     
     binding.pry
-  end
-  end
 end
 
 
