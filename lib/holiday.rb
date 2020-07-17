@@ -27,7 +27,10 @@ end
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
     change_keys_to_string=holiday_hash.to_a
     holiday_hash.each do |seasons, holidays|
+      if seasons.to_s == season
+        holidays.to_s << holiday_name
     binding.pry
+  end
   end
 end
 
