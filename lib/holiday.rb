@@ -20,7 +20,7 @@ def add_supply_to_memorial_day(holiday_hash, supply)
       data.each do |holiday, supplies|
          binding.pry
         supplies << supply
-      end
+      #end
     end
   end
 end
