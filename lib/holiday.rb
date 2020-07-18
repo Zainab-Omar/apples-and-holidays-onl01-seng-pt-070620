@@ -53,7 +53,7 @@ end
 def all_holidays_with_bbq(holiday_hash)
  holiday_hash.map do |season, holiday|
    holiday.map do |holidays, item|
-     if item.include? "BBQ"
+     if item. "BBQ"
        
     binding.pry
   end
