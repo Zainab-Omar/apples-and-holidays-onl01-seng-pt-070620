@@ -56,7 +56,7 @@ def all_holidays_with_bbq(holiday_hash)
    holiday.map do |holidays, item|
      item.map do |item_equal_to_BBQ|
        if item_equal_to_BBQ == "BBQ"
-          answer.push(holiday)
+          answer.push(holidays)
        end
      end
    end
