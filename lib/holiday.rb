@@ -51,11 +51,12 @@ holiday_hash.each do | season, holiday|
 end
 
 def all_holidays_with_bbq(holiday_hash)
+  answer=[]
  holiday_hash.map do |season, holiday|
    holiday.map do |holidays, item|
      item.map do |item_equal_to_BBQ|
        if item_equal_to_BBQ == "BBQ"
-         holidays
+         
        end
      end
    end
